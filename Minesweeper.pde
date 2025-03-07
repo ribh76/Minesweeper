@@ -168,7 +168,7 @@ public class MSButton
         if (gameOver && isMine()) {
             fill(255, 0, 0);
         } else if (flagged) {
-            fill(255, 0, 0);
+            fill(0, 255, 0);
         } else if (clicked) {
             fill(200);
         } else {
